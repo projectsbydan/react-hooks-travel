@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
+import { Layout } from "./Components/layout/layout";
 
-const App = () => <div>hello world</div>;
+const App = () => <Layout />;
 
 render(<App />, document.querySelector("#root"));
