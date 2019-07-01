@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-Debug": "gulp",
+    "build-Release": "gulp Release"
   },
   "author": "Dan",
   "license": "It's mine",
@@ -28,7 +29,7 @@
     "fancy-log": "^1.3.3",
     "gulp": "^4.0.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "4.0.2",
     "path": "^0.12.7",
     "plugin-error": "^1.0.1",
     "source-map-loader": "^0.2.4",
