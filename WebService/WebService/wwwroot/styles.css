@@ -1,2 +1,66 @@
-body{font-family:acumin-pro, sans-serif;font-weight:400;font-style:normal}h1{color:#523A34;font-size:5em}h2{color:#715B64;font-size:2em;font-weight:200}section a{color:#6C0E23;text-transform:uppercase;text-decoration:none;font-weight:bold}section a:after{content:url("/assets/linkDecoration.svg");margin-left:0.5em}
+body {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
+h1 {
+  color: #523A34;
+  font-size: 5em; }
+
+h2 {
+  color: #715B64;
+  font-size: 2em;
+  font-weight: 200; }
+
+section a {
+  color: #6C0E23;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold; }
+  section a:after {
+    content: url("/assets/linkDecoration.svg");
+    margin-left: 0.5em; }
+
+.hv-layout {
+  max-width: 65em;
+  margin: auto; }
+  .hv-layout header {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    text-align: right; }
+    .hv-layout header .hv-logo-container {
+      flex: 1;
+      text-align: left; }
+      .hv-layout header .hv-logo-container img {
+        height: 5em;
+        width: 5em; }
+    .hv-layout header a {
+      padding-left: 2em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #89937C; }
+  .hv-layout footer {
+    margin-top: 7em; }
+    .hv-layout footer .hv-social-links {
+      text-align: center; }
+      .hv-layout footer .hv-social-links img {
+        margin: auto 2em;
+        zoom: 70%; }
+    .hv-layout footer .hv-copy {
+      text-align: center;
+      font-size: .8em;
+      color: #D5C5C8; }
+
+.hv-teaser-location {
+  text-align: right; }
+  .hv-teaser-location img {
+    width: 100%;
+    height: calc(100% - 3em);
+    object-fit: cover;
+    display: block;
+    margin-bottom: 1em;
+    opacity: .7;
+    transition: opacity linear 300ms; }
+    .hv-teaser-location img:hover {
+      opacity: 1; }
